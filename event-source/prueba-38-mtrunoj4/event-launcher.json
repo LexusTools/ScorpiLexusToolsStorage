@@ -1,0 +1,485 @@
+{
+  "eventId": "prueba-38-mtrunoj4",
+  "name": "prueba 38",
+  "description": "38 lrp",
+  "minecraftVersion": "1.20.1",
+  "loader": "forge",
+  "loaderVersion": null,
+  "server": null,
+  "fullZipSha256": "ede595e747c9c570ab4cdf71c4627f84184b5ea4acf37fbe7803fbbdf34ce37d",
+  "files": {
+    "config/CoroUtil/General.toml": {
+      "sha256": "d86beab1176c367beeed3b8fb8a2a8dfbd8a1db7293f067c01bc38c73020e398",
+      "size": 133
+    },
+    "config/MouseTweaks.cfg": {
+      "sha256": "4069ce1a439d8c37453c1b1e9f2037e0942674c7e48723a39b37eab245792ad4",
+      "size": 135
+    },
+    "config/aiimprovements-common.toml": {
+      "sha256": "08a9f7c6f63bd35d49b15fa5bccd8cdf667f21af0c9a8cb2ab5998eb598ee7c3",
+      "size": 6211
+    },
+    "config/ambientsounds-client.json": {
+      "sha256": "c98f572839ace55b0792042fa4b984311e7d876abdaccfc8a4694f5bebad766c",
+      "size": 4198
+    },
+    "config/animation_overhaul/animations.json5": {
+      "sha256": "00f4a867204a3424faf35ecd8291bcf76dd212c330525fe5ecffb5f39aeea347",
+      "size": 3227
+    },
+    "config/animation_overhaul/local_player.json5": {
+      "sha256": "fe9d61e0f3d0ee52069e5527b801f2f9077c5c223fe78d66d933fec246c5a91f",
+      "size": 285
+    },
+    "config/badoptimizations.txt": {
+      "sha256": "cae5ba66971b2f61e0b523c5aeb8b8d4fa806f0bea8a1709860e4fea94426ac9",
+      "size": 3458
+    },
+    "config/bettermineshafts-forge-1_20.toml": {
+      "sha256": "016afc8af06af822bdaa07681699b3c068ec26274116b30b359d5ff03ef9ce11",
+      "size": 3773
+    },
+    "config/blur-client.toml": {
+      "sha256": "5d1f67d3dabefcc6eed0b1ac4074e79e6d918f000691f2c727f4d8739f6f59e7",
+      "size": 801
+    },
+    "config/cameraoverhaul.toml": {
+      "sha256": "196509ebc58f7989c5059063e15056656cce9aa3bfcf0a894bc25db3a6765d9a",
+      "size": 7054
+    },
+    "config/camerapture.client.json": {
+      "sha256": "26f21b1486d7be53e2c85a5a127e070f005d1e0977cd2c3f5d6a9551ef1934b3",
+      "size": 136
+    },
+    "config/camerapture.server.json": {
+      "sha256": "401c518648e56f8769e5516fd8736d6e18a793044bddd0d6a75d05edb45931ba",
+      "size": 236
+    },
+    "config/chat_heads.json5": {
+      "sha256": "e198750061411cf7fca624e38b894ca104ca2cf2c2940da0409ce4240dcc2503",
+      "size": 229
+    },
+    "config/chunky/config.json": {
+      "sha256": "c7384a22595488f79f3125b22cc175eb729267267807a084479419349797abc8",
+      "size": 146
+    },
+    "config/collective.json5": {
+      "sha256": "92809d098b5efeca95c37ec4fef9184bd169160d18efecf81f395c4030c0f83f",
+      "size": 2471
+    },
+    "config/comforts-server.toml": {
+      "sha256": "24702276d0b1d6f7b5e94b4b34cbc5bd426c524a31bc005231324fc1b7976438",
+      "size": 1854
+    },
+    "config/configured-client.toml": {
+      "sha256": "a823c528792d2fda677b9a05956a8c609b6279386b6b4b840d992fa43b931698",
+      "size": 93
+    },
+    "config/cristellib/minecraftED.json5": {
+      "sha256": "8e01cc9b7e46f74fd60ce36d3459628b8198cb988051ae52f14cda36ef0fd869",
+      "size": 1476
+    },
+    "config/cristellib/minecraftP.json5": {
+      "sha256": "8fe09b83f2fe6bf9d547e99b8d883aef42bf3d9e2e6f5bd43ec3fcd4c7f756da",
+      "size": 1752
+    },
+    "config/darkness.properties": {
+      "sha256": "d1fc0f6bf974f7e0dec18f48c69150aa47b3579a3e9464bc275036445801c3b7",
+      "size": 246
+    },
+    "config/doubledoors.json5": {
+      "sha256": "ed3b25678a185a7c560868e047b60ffd7d7bf9b13d3a45cc5c056f5cfd5b088e",
+      "size": 981
+    },
+    "config/easyanvils-client.toml": {
+      "sha256": "daecf2f4b4f0f6682cfabf68dcb963535f7f4284c671141dd7c7115b0c609ba7",
+      "size": 73
+    },
+    "config/easyanvils-server.toml": {
+      "sha256": "5bf38784a30090fbe2d5bc1a65aa5bd5744b5c9ed8a3abdce37341e5637cb570",
+      "size": 3484
+    },
+    "config/embeddium-fingerprint.json": {
+      "sha256": "3a9cfaee8c10adcc9bb5c38c838338d0be7db2e32276f3afa484328a1a4a1c42",
+      "size": 427
+    },
+    "config/embeddium-mixins.properties": {
+      "sha256": "09ff183e061d93b79514bc171bf9118497578757e7a5c45946039487656e2619",
+      "size": 269
+    },
+    "config/embeddium-options.json": {
+      "sha256": "243a7656749e7ba4d0c3f46d3df42ce602ded6a7eb0954d2fe1b4c20be8de92c",
+      "size": 849
+    },
+    "config/enhancedvisuals-client.json": {
+      "sha256": "6085da56d748d1d3d13d24044a6a029149f261c4d6dc05a776a32dc491010af5",
+      "size": 8280
+    },
+    "config/enhancedvisuals.json": {
+      "sha256": "0db28b852e68e602e80940bc108ec70784d8975a8921d80678a0b24b3e088fd9",
+      "size": 429
+    },
+    "config/epicknights/armor.json5": {
+      "sha256": "0ff17ebd10c2d1b1b21fa8f6e5667eed9c08b226f60805bc586e2bb06f058961",
+      "size": 12687
+    },
+    "config/epicknights/general.json5": {
+      "sha256": "d3dec561a9b4985cb6407bc18bc1d8507e5bd7e6e916de32a0bdae0e8b2998ba",
+      "size": 1915
+    },
+    "config/epicknights/mobs_equipment.json5": {
+      "sha256": "35bf1bc34160e9a890814f08e0e9a69c3d7e21bf6991ace6548ef759e4cd8524",
+      "size": 1991
+    },
+    "config/epicknights/shields.json5": {
+      "sha256": "ece9f2ec662c26d829d7439c0138717d9fe83dc606d055b64dab37799f209f3e",
+      "size": 1781
+    },
+    "config/epicknights/weapons.json5": {
+      "sha256": "134eca5eafff0ffe0d52cf8774dd02fb247a6e2f6ca617f0acac396c9565ebd6",
+      "size": 9918
+    },
+    "config/fallingleaves-client.toml": {
+      "sha256": "2cd017af6632239398b694fadf8191d6073cf39585549876cc682843f521ecb3",
+      "size": 796
+    },
+    "config/fallingtree.json": {
+      "sha256": "922a0a06c316eb1f0aba285f5bc59f4421b51b6f861661f3cdab38bbd44e4927",
+      "size": 1273
+    },
+    "config/falsity-common.toml": {
+      "sha256": "fec4f7a4481676d343df726f450f5a97cfd7f8c2c9425b7720d02f1bb9aae456",
+      "size": 781
+    },
+    "config/farmersdelight-client.toml": {
+      "sha256": "940f68676859e852c600974c4776e986453ce7d3b2cf27ac156535e26c160e11",
+      "size": 478
+    },
+    "config/farmersdelight-common.toml": {
+      "sha256": "459c4d9fcf137f0533da3280349f2abe51510497632130cbc23507dd121b1bd8",
+      "size": 3930
+    },
+    "config/ferritecore-mixin.toml": {
+      "sha256": "c164439c632aa7c95c07edec5cfef74b8e2d5671a8445a781deeb4de7ad0c8b6",
+      "size": 1516
+    },
+    "config/fml.toml": {
+      "sha256": "506f0c4c714bf1528d45ab8202f303bde6ba5f9e53778c92a679efbc185afb12",
+      "size": 1148
+    },
+    "config/forge-client.toml": {
+      "sha256": "0b1b3c45343435184c9dde3149b38afcdb97953e287686ecda54385f53ebcddc",
+      "size": 1628
+    },
+    "config/immediatelyfast.json": {
+      "sha256": "f2b7f219198f0a911d04b09f545f2c1256e8d114951443924878dc10963e16aa",
+      "size": 1060
+    },
+    "config/jade/hide-blocks.json": {
+      "sha256": "247df2699ebb5a0d4c9585aeeb267ef9388cd5bee2b13ca340f35124a135b35b",
+      "size": 191
+    },
+    "config/jade/hide-entities.json": {
+      "sha256": "22b4560c3dc05da35a70bb6611da0ce04cff295ab8c663afd58e725c396a24b3",
+      "size": 325
+    },
+    "config/jade/jade.json": {
+      "sha256": "8a9c0403b385ca106d0c0b541ea2f2128bf39e3f9b05b342b176ca11834857a4",
+      "size": 974
+    },
+    "config/jade/plugins.json": {
+      "sha256": "fc9d60afba49f38c5f7ba232552f1232fe95c02e9fea7b6f98d818425eb54f35",
+      "size": 1887
+    },
+    "config/jade/sort-order.json": {
+      "sha256": "7df31efd48f8bbad99ca35654a6d8f374a2b4e04ee90b528d11ff4fcf07729b1",
+      "size": 1609
+    },
+    "config/jei/blacklist.cfg": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    },
+    "config/jei/ingredient-list-mod-sort-order.ini": {
+      "sha256": "faf37bbf2dc8d9506cdc6e2ced6c9f98ac653f83293ee535971c1210db0ae609",
+      "size": 186
+    },
+    "config/jei/ingredient-list-type-sort-order.ini": {
+      "sha256": "39b5426fb7faf645a83c210d457352b05f64859d4b9adb58242c113c2c8e6878",
+      "size": 74
+    },
+    "config/jei/jei-client.ini": {
+      "sha256": "8c5ae3646c07bfd87fe9259333c2df2b7eb2670cd0c64c21f48f69e0a5629a18",
+      "size": 7991
+    },
+    "config/jei/jei-colors.ini": {
+      "sha256": "5f37aacd70460fdc2631ff45e98e8a2ce4e52d3e9a50917edf40eeed1236952e",
+      "size": 1338
+    },
+    "config/jei/jei-debug.ini": {
+      "sha256": "ee9bb0f0f8465629951fe9a532f3ebe3327671a12d4cc6395860d7f7494b970b",
+      "size": 918
+    },
+    "config/jei/jei-mod-id-format.ini": {
+      "sha256": "326b4f9b813ca8183bfaeee184cf7248c7a75c4d85b59322e349c0e964c253f3",
+      "size": 463
+    },
+    "config/jei/recipe-category-sort-order.ini": {
+      "sha256": "e21edce4f7abff6993b869a79db9a62b127f425579a0260046dcff786cd01d5a",
+      "size": 392
+    },
+    "config/mediumcore-common.toml": {
+      "sha256": "2dafdd60bfd41733a1eeed459cfaaebcd5b30a3aef966232fcce925d73dc1dd6",
+      "size": 1051
+    },
+    "config/moderner_beta.json": {
+      "sha256": "4017be6fac21abfe9ff6dac7eb5a096e805e8f4c9d4c98ffa97b1264b9efc0ba",
+      "size": 6632
+    },
+    "config/modernfix-common.toml": {
+      "sha256": "fad9aea710ec3508eab562cd8f2b5f8e2dda6ee1c5fb1fe818f90ce253017f66",
+      "size": 107
+    },
+    "config/modernfix-mixins.properties": {
+      "sha256": "cc9db08ca3f44714cf14117fb1772eed88c9cc3272fea6d17e657292c8799fe0",
+      "size": 6643
+    },
+    "config/naturescompass-client.toml": {
+      "sha256": "4215398614d28a24d2fe39593bf25981dd67ae46f85bc710ee07ba2d37c74c0b",
+      "size": 432
+    },
+    "config/naturescompass-common.toml": {
+      "sha256": "538aae74ea0b2f15762899e6ee36bb9df856c2a60ca6266b74d0b2008394fc2b",
+      "size": 2126
+    },
+    "config/necronomicon.json5": {
+      "sha256": "f97fc5ae7dd7d312e86ecddf2e4491fee3e3a16b7a26cbb3aa078fdd3255c4df",
+      "size": 266
+    },
+    "config/nostalgic_tweaks/backup/nostalgic_tweaks-client-startup_backup.json": {
+      "sha256": "ca5448e0e9b3e4b03009fbba4e6e56bb5ad5f4cda335b0054c60d1d6a2d0e80d",
+      "size": 20719
+    },
+    "config/nostalgic_tweaks/nostalgic_tweaks.json": {
+      "sha256": "ca5448e0e9b3e4b03009fbba4e6e56bb5ad5f4cda335b0054c60d1d6a2d0e80d",
+      "size": 20719
+    },
+    "config/oculus.properties": {
+      "sha256": "8d168037473db7a072c95d08ecb0242405bf2354e560ab755546e13e3a007183",
+      "size": 266
+    },
+    "config/pickupnotifier/pickupnotifier-client.toml": {
+      "sha256": "242a0f58407ecc71ff5e2c6cd2910001c089ee4e6130454c377115e8a8f3c83a",
+      "size": 3355
+    },
+    "config/pickupnotifier/pickupnotifier-server.toml": {
+      "sha256": "6e18bfa2ec02629937474e436f3f44fb67d54fd6e6b47a7c9b4c5b3a3bd83916",
+      "size": 485
+    },
+    "config/resourcify.json": {
+      "sha256": "ade1b4a28332a849a0b3dfe006db3d1ef22810301999316fd58a34b130968fb5",
+      "size": 275
+    },
+    "config/running_skeleton-common.toml": {
+      "sha256": "c4e61faeb0f04e21da217d71e3f69175553d88e65f89a16dda1e63741f4450dd",
+      "size": 185
+    },
+    "config/saturn-optimizations.toml": {
+      "sha256": "47019e25dcb00d2d1da22d725095dc39bcbbf10cdfb8429d8d5a97b231a272b3",
+      "size": 445
+    },
+    "config/securitycraft-client.toml": {
+      "sha256": "32981615c100094a5c6f127c9a2e06b4c12fdf225f0aca6604172049ec471e9b",
+      "size": 1951
+    },
+    "config/shouldersurfing-client.toml": {
+      "sha256": "56e02f7a8761e64c6a2af7c5b64532d39e1f615fdace71a6585237b684f9fa85",
+      "size": 16819
+    },
+    "config/sodiumdynamiclights-client.toml": {
+      "sha256": "64d2ce1b1675f17e0807180b9680ef9c97e4b92ac86962b7cbf27f0db4926eb6",
+      "size": 659
+    },
+    "config/somespookycaveadditions-common.toml": {
+      "sha256": "ebb403bc5a3584258a9503d24f3edad9156d096b742dbb0b063278782d25a867",
+      "size": 10087
+    },
+    "config/sophisticatedbackpacks-common.toml": {
+      "sha256": "6674ec92f625296aa8accc93d71fdf1eecfc8050111c5ae7b6d9a94b4fe14506",
+      "size": 122
+    },
+    "config/sophisticatedcore-client.toml": {
+      "sha256": "3175ac14ac1da55ba706d1f0321c0b5620cd968a381e60323b283778e7b6d9e6",
+      "size": 478
+    },
+    "config/sophisticatedcore-common.toml": {
+      "sha256": "9970a2d718e613a9a054c38ff0e0a6e65e182bf3da8c7c0b925bcc2f477384df",
+      "size": 3195
+    },
+    "config/sound_physics_remastered/occlusion.properties": {
+      "sha256": "ebbac45fbb3ca01487b85ffee9601b213b71896e6606fb297bcb0f3ac9c30ffb",
+      "size": 4831
+    },
+    "config/sound_physics_remastered/reflectivity.properties": {
+      "sha256": "e26b00784bb6239988759ed1a64551b9f301dc33c5a855d91e976ee4bf40ac8a",
+      "size": 4713
+    },
+    "config/sound_physics_remastered/sound_rates.properties": {
+      "sha256": "4c08b57d7d3de9478a6129b9ade459f228c963fb39a38d5a0b323782cd345023",
+      "size": 78624
+    },
+    "config/sound_physics_remastered/soundphysics.properties": {
+      "sha256": "d29dede3f214ee4b1aa03314f92c3f973c21ee6e26d173eba3d01a2083237b6d",
+      "size": 5104
+    },
+    "config/sounds/chat.json": {
+      "sha256": "67ef157516b699a428c78d123e0d3010605c6e6232272aeda27195a88fd8dc85",
+      "size": 593
+    },
+    "config/sounds/event.json": {
+      "sha256": "6245d6fd01be9aac33c2c7967fb795b8542a21526623ffc19a85596b3a6e1d1f",
+      "size": 797
+    },
+    "config/sounds/mod_utils.json": {
+      "sha256": "ad4c5fe9811db5595602b39957453cf553ca0ccf0c084db6393caa2f2fa05132",
+      "size": 41
+    },
+    "config/sounds/ui.json": {
+      "sha256": "ad2d93625c17340af17d4f8160853cb2a8db338ebc5e8989c574798039379f56",
+      "size": 2108
+    },
+    "config/sounds/world.json": {
+      "sha256": "370cb0d795cd5143f878dbaa489ba2ec7cbd14228cafa07d4a86a27a2e08f923",
+      "size": 1576
+    },
+    "config/starterkit.json5": {
+      "sha256": "59f438a6e1982085656b80f626c075e68278f56e98582b2daa8bdb4ed4bd6f9d",
+      "size": 1511
+    },
+    "config/starterkit/descriptions/Archer.txt": {
+      "sha256": "2ea003ce1408175d33f2bf55cb2de60b7aca7d652b922a84ec52d7d77eb99b64",
+      "size": 57
+    },
+    "config/starterkit/descriptions/Default.txt": {
+      "sha256": "19df01c903be0cc0216fbca05181ff06c2aff09f2ef213e78ea93f82d2cb1324",
+      "size": 125
+    },
+    "config/starterkit/descriptions/Lumberjack.txt": {
+      "sha256": "5091e1a2d5a2927fe1d8f6a6a233ace60f2407be05384f3140b839e9ad3a041a",
+      "size": 52
+    },
+    "config/starterkit/descriptions/Witch.txt": {
+      "sha256": "290f6b832794b6876aba9da963b585ba4e99e5e6a972aebb52810e9a256e2f65",
+      "size": 52
+    },
+    "config/starterkit/kits/Default.txt": {
+      "sha256": "7ef15dda287a37b866a4dbf58964aa5404b73bfbbbc06c8e9aac1ffe7352ad10",
+      "size": 626
+    },
+    "config/starterkit/kits/inactive/Archer.txt": {
+      "sha256": "2d33c0b751d94e542b0ccecf3709e4872b6097d8e450b8336d78f5bfdce38306",
+      "size": 722
+    },
+    "config/starterkit/kits/inactive/Lumberjack.txt": {
+      "sha256": "2f481c3b16599f5563ae0ad9f932a5ce5929d2ffce51cd6c67adc3b93694541c",
+      "size": 678
+    },
+    "config/starterkit/kits/inactive/Witch.txt": {
+      "sha256": "61484d5a235b04746cbdeca240501354f6ac39badce199ec7ed90865640e6471",
+      "size": 953
+    },
+    "config/tacz-client.toml": {
+      "sha256": "dd424e7258c7c3e4c69597ae951fe373e037f6cb38dafec7affb6fbcda0d8285",
+      "size": 3712
+    },
+    "config/tacz-common.toml": {
+      "sha256": "2c5645c6cb879b8f1917d4473c5b6c26fc57cc814d408703c9ac774f3b523958",
+      "size": 2172
+    },
+    "config/towns_and_towers/structure_enable_or_disable_new.json5": {
+      "sha256": "3aaa6ac8835dbbce97928c4d0d03f9957749a7a57a3f1668597310e9227900da",
+      "size": 3088
+    },
+    "config/towns_and_towers/structure_rarity_new.json5": {
+      "sha256": "1f6cddbcb2d89fbcc774d7bdae9987ccb031ba8fe024307357076ca617b17eeb",
+      "size": 1581
+    },
+    "config/verity-client.toml": {
+      "sha256": "0290f0122d188dddad26a932a84ff55250c14a98777b735c4507570590d679be",
+      "size": 2265
+    },
+    "config/verity-common.toml": {
+      "sha256": "0290f0122d188dddad26a932a84ff55250c14a98777b735c4507570590d679be",
+      "size": 2265
+    },
+    "config/visual_workbench.json": {
+      "sha256": "7885b862b10bf4b14d3103909971114a736d14a52e4a7994ace0d66a2474c14c",
+      "size": 11520
+    },
+    "config/visualworkbench-client.toml": {
+      "sha256": "a48b352862f74f6fe3ab071e7e43e631618e9c5f68b5f992b591d4dc87992954",
+      "size": 315
+    },
+    "config/voicechat-client.toml": {
+      "sha256": "24a7b91377e08d0d8bc2805793c8150d473241aa816cbaa6fca9d254aa537ca5",
+      "size": 94
+    },
+    "config/voicechat/category-volumes.properties": {
+      "sha256": "94c1c4f70e5b995fbd71e86d4fa646030437fecae0685875b560a55fbd0d0e56",
+      "size": 46
+    },
+    "config/voicechat/player-volumes.properties": {
+      "sha256": "0332261861a5ace96f503e85b0d48a8df74ea6c2f3545cd229543a6afb55ad96",
+      "size": 44
+    },
+    "config/voicechat/translations.properties": {
+      "sha256": "693643b1d393cbb3ea7f062afc4474fcd66e4036c4f8d7c056434979cbf512d1",
+      "size": 1182
+    },
+    "config/voicechat/username-cache.json": {
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "size": 2
+    },
+    "config/voicechat/voicechat-client.properties": {
+      "sha256": "82c141c21dfe5959b9252432cb87c0217ccaa9164faa2c1c0c3a458e995d3b75",
+      "size": 5063
+    },
+    "config/voicechat/voicechat-server.properties": {
+      "sha256": "ca352dc14b3f2debe25758399ecad972db34e5c904da41730dec80cf8dedd369",
+      "size": 2830
+    },
+    "config/watut-client.toml": {
+      "sha256": "f30aba6a74c4656d7284081651de0fbc5281e1da8daf7535dae43543959f7fdf",
+      "size": 3236
+    },
+    "config/watut-common.toml": {
+      "sha256": "17a113c1bf3c30dca221ee72b7285cf1cee3aea24fd5a48d82c47398e2eaa726",
+      "size": 154
+    },
+    "config/watut-item-arm-adjustments.json": {
+      "sha256": "543e09f71cda1d97d238ac4150e43e50868cf781027c88d68fc714f261d88982",
+      "size": 3367
+    },
+    "config/watut-server.toml": {
+      "sha256": "690202e25181bb7ab70d0cd61cf05fa84d45117764dc3bf3498457dc13309c65",
+      "size": 2880
+    },
+    "config/weaponmaster_ydm-common.toml": {
+      "sha256": "8decc3a11a8b12d6379871ae098ee2e1bb48522d1690396003d5cb6af7a7d8f3",
+      "size": 7657
+    },
+    "config/yacl.json5": {
+      "sha256": "d26a63d3cdf326412ba86dcc2781060bc53ed6c74ac7808e65325452e264e820",
+      "size": 35
+    },
+    "modlist.html": {
+      "sha256": "0084d51965d5f597b0d98f59da046b5b18b4ca04be864d53051da172d14ec3cf",
+      "size": 8603
+    },
+    "profileImage/2026-06-22_21.21.16.png": {
+      "sha256": "b31ac899553caf2a8a2e7aec15adfa9928a1836d811521550c72621f3cbd2219",
+      "size": 3335968
+    }
+  },
+  "updatedAt": "2026-09-07T23:06:55.499Z"
+}
