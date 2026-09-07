@@ -6,7 +6,7 @@
   "loader": "forge",
   "loaderVersion": null,
   "server": null,
-  "fullZipSha256": "08a930d49e2d7f7b8f94e87a7d3ac6ba2f3794de5e3576be938a936b64ffd72c",
+  "fullZipSha256": "d16a2f9359237eaf9b17ec258d4889155984f5427ee8393e57f625ec00ee1c68",
   "files": {
     "config/CoroUtil/General.toml": {
       "sha256": "d86beab1176c367beeed3b8fb8a2a8dfbd8a1db7293f067c01bc38c73020e398",
@@ -481,5 +481,5 @@
       "size": 3335968
     }
   },
-  "updatedAt": "2026-09-07T23:07:26.137Z"
+  "updatedAt": "2026-09-07T23:14:58.843Z"
 }
