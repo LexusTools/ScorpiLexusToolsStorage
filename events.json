@@ -1,15 +1,15 @@
 {
-  "version": "1788815600281",
-  "updatedAt": "2026-09-07T21:13:20.281Z",
+  "version": "1788815713898",
+  "updatedAt": "2026-09-07T21:15:13.898Z",
   "events": [
     {
-      "id": "omg-pls-work-damm-mtrqi093",
-      "name": "Omg Pls work damm",
-      "description": "idk bro ",
-      "manifestUrl": "https://github.com/LexusTools/ScorpiLexusToolsStorage/releases/download/event-omg-pls-work-damm-mtrqi093-1788815575706/manifest.json",
-      "releaseUrl": "https://github.com/LexusTools/ScorpiLexusToolsStorage/releases/tag/event-omg-pls-work-damm-mtrqi093-1788815575706",
-      "version": "v1788815575706-d95bfc83",
-      "publishedAt": "2026-09-07T21:13:20.279Z"
+      "id": "nuevo-mtrqnsr3",
+      "name": "Nuevo",
+      "description": "Viejo",
+      "manifestUrl": "https://github.com/LexusTools/ScorpiLexusToolsStorage/releases/download/event-nuevo-mtrqnsr3-1788815692604/manifest.json",
+      "releaseUrl": "https://github.com/LexusTools/ScorpiLexusToolsStorage/releases/tag/event-nuevo-mtrqnsr3-1788815692604",
+      "version": "v1788815692604-4ab632b2",
+      "publishedAt": "2026-09-07T21:15:13.897Z"
     }
   ]
 }
