@@ -1,0 +1,52 @@
+name: Event Launcher Auto Publish
+
+on:
+  push:
+    paths:
+      - 'event-source/**'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  publish-event:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Find event source
+        id: source
+        shell: bash
+        run: |
+          set -euo pipefail
+          mapfile -t dirs < <(find event-source -mindepth 1 -maxdepth 1 -type d | sort)
+          if [ "${#dirs[@]}" -ne 1 ]; then
+            echo "Expected exactly one event-source directory, found ${#dirs[@]}" >&2
+            exit 1
+          fi
+          dir="${dirs[0]}"
+          echo "dir=$dir" >> "$GITHUB_OUTPUT"
+          echo "id=$(basename "$dir")" >> "$GITHUB_OUTPUT"
+
+      - name: Validate event
+        shell: bash
+        run: |
+          test -f "${{ steps.source.outputs.dir }}/event-launcher.json"
+          test -f "${{ steps.source.outputs.dir }}/event-pack.zip"
+
+      - name: Create or update Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: event-${{ steps.source.outputs.id }}
+          name: Event ${{ steps.source.outputs.id }}
+          body: Automatic Event Launcher release generated from event-source.
+          files: |
+            ${{ steps.source.outputs.dir }}/event-pack.zip
+            ${{ steps.source.outputs.dir }}/event-launcher.json
+          make_latest: true
+          prerelease: false
+          fail_on_unmatched_files: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
