@@ -1,0 +1,62 @@
+name: Publish Event Release
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'event-source/default-event/event-pack.zip'
+      - 'event-source/default-event/event-launcher.json'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  publish-event:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Read event metadata
+        id: meta
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import json, os
+          p='event-source/default-event/event-launcher.json'
+          with open(p, encoding='utf-8') as f: m=json.load(f)
+          out=os.environ['GITHUB_OUTPUT']
+          with open(out,'a',encoding='utf-8') as f:
+              f.write('event_id='+str(m.get('eventId','default-event'))+'\n')
+              f.write('name='+str(m.get('name','Event'))+'\n')
+          PY
+
+      - name: Generate release manifest
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import json, hashlib
+          from pathlib import Path
+          meta=json.loads(Path('event-source/default-event/event-launcher.json').read_text(encoding='utf-8'))
+          data=Path('event-source/default-event/event-pack.zip').read_bytes()
+          meta['fullZipSha256']=hashlib.sha256(data).hexdigest()
+          meta['fullZipPath']='event-pack.zip'
+          Path('event-source/default-event/manifest.json').write_text(json.dumps(meta,indent=2,ensure_ascii=False)+'\n',encoding='utf-8')
+          PY
+
+      - name: Create or update Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: event-${{ steps.meta.outputs.event_id }}
+          name: ${{ steps.meta.outputs.name }}
+          body: Automatic Event Launcher release generated from the event source.
+          files: |
+            event-source/default-event/event-pack.zip
+            event-source/default-event/event-launcher.json
+            event-source/default-event/manifest.json
+          make_latest: true
+          prerelease: false
+          fail_on_unmatched_files: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
